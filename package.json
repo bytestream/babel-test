@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-private-methods": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "terser-webpack-plugin": "^5.0.3",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.12.5",
+    "core-js": "^3.7.0"
+  },
+  "scripts": {
+    "build:dev": "webpack --config webpack.dev.cjs"
+  }
+}
